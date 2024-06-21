@@ -1,7 +1,7 @@
+import s from './Header.module.css'
 export const Header=()=>{
     return (
-        <div>
-            <header>
+            <header className={s.header}>
                 <nav>
                     <ul>
                         <li><a href="#about">About</a></li>
@@ -10,6 +10,5 @@ export const Header=()=>{
                     </ul>
                 </nav>
             </header>
-        </div>
     )
 }
