@@ -1,16 +1,23 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css";
+
 .header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-}
-
-.header nav ul {
-    list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: white;
+    color: #242424;
+    padding: 1rem;
+    height: 70px;
+}
+.container{
+    display: flex;
+
 }
 
-.header nav ul li a {
-    color: white;
-    text-decoration: none;
+.image{
+    width: 90px;
+    height: 70px;
+    background-color: blue;
+}
+.mentorship{
+
 }
